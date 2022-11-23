@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROFIT</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="fancybox/jquery.fancybox.css" />
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="fancybox/jquery.fancybox.js"></script>
+  <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+  <script src="responsiveslides.min.js"></script>
+  <script src="wow.min.js"></script>
+  <script src="funciones.js"></script>
+</head>
+<body>
+    <header class="ancho contenedor_heder">
+        <div class="caja_icono">
+            <figure>
+                <img src="imagenes/logo.png" alt="">
+            </figure>
+            <div id="icono_menu" class="menu_ancho">
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
+        </div>
+        <div>
+            <nav class="contenedor_menu" id="caja_menu_jb">
+                <ul class="caja_menu">
+                    <li><a href="#Inicio" class="btn_ancla">Inicio</a></li>
+                    <li><a href="#Nuestro" class="btn_ancla">Nuestro Servicio</a></li>
+                    <li><a href="#Instructores" class="btn_ancla">Instructores</a></li>
+                    <li><a href="#Contactanos" class="btn_ancla">Contactanos</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+
+    </header>
+
+
+    <br><br>
+    <section class="slidefotos">
+      <ul class="rslides">
+        <li><img src="imagenes/slide1.jpg" alt=""></li>
+        <li><img src="imagenes/slide2.jpg" alt=""></li>
+        <li><img src="imagenes/slide3.jpg" alt=""></li>
+      </ul>
+      <div class="informacion">
+        <h2>El mejor FITNESS</h2>
+        <h2>en MERIDA</h2>
+      </div>
+    </section>
+    <script>
+        $(function () {
+          $(".rslides").responsiveSlides();
+        });
+    
+        // script para animaciones
+        new WOW().init();
+    
+      </script>
+
+<div class="contenedor">
+  <h5>Nuestro Servicios</h5>
+  <section class="ancho1">
+      <article class="consulta">
+          <div>
+            <a href="#"><i class="fas fa-award"></i></a>
+          </div>
+          <h4 class="wow animate__animated animate__wobble">Quality service</h4>
+          <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, neque, voluptatum natus culpa vitae animi harum minima soluta cumque quisquam qui odit commodi est, nobis quos temporibus? Aliquid, iusto maxime.
+          </p>
+     </article>
+     <article class="consulta wow animate__animated animate__bounceInLeft">
+      <div>
+        <a href="#"><i class="fas fa-dumbbell"></i></a>
+      </div>
+      <h4>SPACIOUS GYM</h4>
+      <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure omnis maxime esse excepturi assumenda et inventore optio nostrum vero quidem, tenetur nesciunt consequuntur accusamus fugit architecto possimus dolorem temporibus alias.
+      </p>
+  </article>
+<article class="consulta wow animate__animated animate__bounce">
+ <div>
+  <i class="fas fa-file-invoice"></i>
+</div>
+ <h4>UNIQUE FITNESS PROGRAMS</h4>
+ <p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam eveniet error est. Assumenda sint odio blanditiis itaque nemo eaque voluptatibus quia magnam, fuga repudiandae dolorum, provident possimus eum impedit error.
+ </p>
+</article>
+
+<article class="consulta  wow animate__animated animate__flash">
+ <div>
+  <a href="#"><i class="fas fa-users"></i></a>
+</div>
+ <h4>GROUP CLASSES</h4>
+ <p>
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus harum laboriosam earum aliquid aliquam ratione itaque ipsa cumque omnis ex cupiditate aperiam, quibusdam quis vitae tempore ea! Neque, velit quae.
+ </p>
+  </section>
+</div>
+
+
+<h1>Instructores</h1>
+
+  <section id="galeria" class="ancho contenedorfotos">
+
+    <a href="imagenes/foto1.jpg" class="fancybox" title="GIMNASIO 1" rel="gallery1">
+      <img src="imagenes/foto1.jpg" alt="" />
+    </a>
+
+
+
+
+
+    <a href="imagenes/foto2.jpg" class="fancybox" title="GIMNASIO 2" rel="gallery1">
+      <img src="imagenes/foto2.jpg" alt="" />
+    </a>
+
+    <a href="imagenes/foto3.jpg" class="fancybox" title="GIMNASIO 3" rel="gallery1">
+      <img src="imagenes/foto3.jpg" alt="" />
+    </a>
+
+    <a href="imagenes/foto4.jpg" class="fancybox" title="GIMNASIO 4" rel="gallery1">
+      <img src="imagenes/foto4.jpg" alt="" />
+    </a>
+
+
+  </section>
+
+  <section class="parrallaxas">
+    <div class="info2">
+      <h5>FITNESS</h5>
+      <H6>CLUB</H6>
+    </div>
+    <div class="bton1">
+      <a href="#" class="btn">Suscribete ahora</a>
+    </div>
+  </section>
+  <br><br>
+  <footer>
+    <div>
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+  </div>
+  </footer>
+  <i id="subir" class="fas fa-arrow-circle-up"></i>
+
+  <script src="funciones.js"></script>
+</body>
+
+</html>
